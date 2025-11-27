@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html xmlns:th="http://www.thymeleaf.org">
+<head>
+    <title>Cursos (Admin)</title>
+</head>
+<body>
+
+<h2>Gestión de cursos</h2>
+
+<a th:href="@{/admin/cursos/crear}">Crear nuevo curso</a>
+
+<table border="1">
+    <tr>
+        <th>ID</th>
+        <th>Nombre</th>
+        <th>Instructor</th>
+        <th>Acciones</th>
+    </tr>
+
+    <tr th:each="curso : ${cursos}">
+        <td th:text="${curso.id}"></td>
+        <td th:text="${curso.nombre}"></td>
+        <td th:text="${curso.instructor.nombre}"></td>
+        <td>
+            <a th:href="@{'/admin/cursos/editar/' + ${curso.id}}">Editar</a>
+
+            <form th:action="@{'/admin/cursos/eliminar/' + ${curso.id}}" method="post" style="display:inline;">
+                <button type="submit">Eliminar</button>
+            </form>
+        </td>
+    </tr>
+</table>
+
+</body>
+</html>
