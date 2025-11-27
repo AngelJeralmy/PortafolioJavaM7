@@ -28,7 +28,8 @@ Proyectos Destacados
 
 Poyecto 1: Pizzería Mamma Mía (Front-End React)
 E-commerce: incluye función de "carrito de compras". Debe añadir cada pizza seleccionada, mostrar la cantidad de pizzas y calcular el total de la compra.
-Enlace: https://full-stack-js-final-m5.vercel.app/
+Enlace a repositorio: https://github.com/AngelJeralmy/Full-stack-js-finalM5
+Proyecto en línea: https://full-stack-js-final-m5.vercel.app/
 
 Proyecto 2: Gestión de cursos (Fullstack Java/SpringBoot)
 Administradores: pueden agregar, editar y eliminar cursos, gestionando completamente la oferta académica del sistema.
