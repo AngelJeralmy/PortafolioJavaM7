@@ -1,46 +1,53 @@
-Hola, soy Ángel Zambrano. Un gusto que estés por aquí. Desarrollador con experiencia en tecnologías frontend y backend.
-Me apasiona crear aplicaciones modernas, escalables y bien estructuradas, siempre cuidando la experiencia del usuario y la calidad del código.
+# Proyecto M6 Evaluación Portafolio
 
-Durante mi formación y práctica, he trabajado con herramientas profesionales como Next.js, Bootstrap, Java con Spring Boot, APIs REST, consumo de servicios y bases de datos.
-Mi objetivo es seguir creciendo como desarrollador full-stack y construir productos que realmente aporten valor.
+## Cómo ejecutar el proyecto
 
-Tecnologías que domino
+1. Ejecuta la clase principal del proyecto.
+2. La aplicación se inicia en el puerto 9093 (configurar el puerto de uso).
+3. Accede al sistema ingresando a la ruta:
 
-Frontend
+   ```
+   http://localhost:9093/login
+   ```
 
-JavaScript
-node.js
-Recat
-HTML5 / CSS3
-Bootstrap
+## Credenciales preconfiguradas
 
-Backend
+En la clase principal se encuentran definidos los beans con las credenciales de acceso:
 
-Java
-Spring Boot (REST, MVC, Data JPA, Security)
-Otros
-Git & GitHub
-MySQL / PostgreSQL
-Diseño responsivo
+**Administrador**
 
-Patrones y buenas prácticas básicas
+* Usuario: [admin@cursos.com]
+* Contraseña: admin123
 
-Proyectos Destacados
+**Empleado**
 
-Proyecto 1: Nombre del Proyecto
-Descripción breve del proyecto, su propósito y tecnologías utilizadas.
-Enlace al repositorio: [ENLACE_AQUÍ]
+* Usuario: [empleado@cursos.com]
+* Contraseña: empleado123
 
-Proyecto 2: Nombre del Proyecto
-Descripción breve del proyecto, su propósito y tecnologías utilizadas.
-Enlace al repositorio: [ENLACE_AQUÍ]
+## Funcionamiento según el rol
 
-📬 Contacto
+### Rol Administrador
 
-Si deseas conversar sobre desarrollo, colaborar o revisar mis proyectos, puedes encontrarme aquí:
+Al iniciar sesión como administrador se despliega una ventana donde se listan todos los cursos disponibles.
+Cada curso muestra botones para **editar** y **eliminar**.
+Los instructores asociados a los cursos fueron definidos mediante beans en la clase principal.
 
-✉️ Email: (opcional)
+### Rol Empleado
 
-🌐 Portafolio web: (opcional)
+Al iniciar sesión como empleado se visualizan todos los cursos disponibles, cada uno con un único botón: **inscribirse**.
+Al hacer clic en “inscribirse”, se registra la inscripción y aparece un mensaje confirmando la operación.
 
-🔗 LinkedIn: https://www.linkedin.com/in/%C3%A1ngel-zambrano-99330a280/
+## Endpoints expuestos
+
+### GET /api/cursos
+
+Devuelve el listado completo de cursos disponibles.
+
+### POST /api/inscripciones
+
+Registra una inscripción recibiendo los parámetros:
+
+* empleadoId
+* cursoId
+
+Estos endpoints están asegurados mediante autenticación Basic Auth y permiten solicitudes externas gracias a la anotación `@CrossOrigin`.
