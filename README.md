@@ -9,6 +9,7 @@ API completa para la gestión de cursos, inscripciones e instructores.
 **Tecnologías:** Spring Boot · JPA/Hibernate · MySQL · JWT · Railway  
 Repositorio: https://github.com/AngelJeralmy/PortafolioJavaM7
 Proyecto en linea: https://portafoliojavam7-production.up.railway.app/login
+Video en You tube: Explicación de la funcionalidad: https://youtu.be/CXV7lgSMxLk
 
 ## Tecnologías que domino
 
