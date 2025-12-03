@@ -4,7 +4,7 @@ Me alegra mmucho que estés por aquí. Soy desarrollador Backed con experiencia 
 Me apasiona crear aplicaciones sólidas, escalables y con buenas prácticas de arquitectura.
 
 ---
-###  gestión de cursos: API REST con Spring Boot  
+###  Gestión de cursos: API REST con Spring Boot  
 API completa para la gestión de cursos, inscripciones e instructores.  
 **Tecnologías:** Spring Boot · JPA/Hibernate · MySQL · JWT · Railway  
 - Repositorio: https://github.com/AngelJeralmy/PortafolioJavaM7
