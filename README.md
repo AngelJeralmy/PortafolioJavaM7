@@ -39,6 +39,6 @@ API completa para la gestión de cursos, inscripciones e instructores.
 ---
 
 ## Contacto
-Linkedin: https://www.linkedin.com/in/%C3%A1ngel-zambrano-99330a280/
-Correo electrónico: 015angelzambrano@gmail.com
+- Linkedin: https://www.linkedin.com/in/%C3%A1ngel-zambrano-99330a280/
+- Correo electrónico: 015angelzambrano@gmail.com
 
