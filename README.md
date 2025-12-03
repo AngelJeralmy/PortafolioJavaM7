@@ -1,6 +1,6 @@
 # Hola, soy Ángel Zambrano
 
-Me alegra mmucho que estés por aquí. Soy desarrollador Backed con experiencia en **Java**, **Spring Boot**, **APIs REST**, y bases de datos relacionales.  
+Me alegra mmucho que estés por aquí. Soy desarrollador Full Stack con experiencia en **Javascript**, **React**, **Java**, **Spring Boot**, **APIs REST**, y bases de datos relacionales (PostgreSQL y MySQL).  
 Me apasiona crear aplicaciones sólidas, escalables y con buenas prácticas de arquitectura.
 
 ---
